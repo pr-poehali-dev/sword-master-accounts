@@ -1,0 +1,10 @@
+{
+  "tests": [
+    {
+      "name": "Get reviews list",
+      "method": "GET",
+      "expectedStatus": 200,
+      "bodyMatcher": "partial"
+    }
+  ]
+}

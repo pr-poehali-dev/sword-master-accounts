@@ -1,0 +1,10 @@
+{
+  "tests": [
+    {
+      "name": "Get user without token",
+      "method": "GET",
+      "expectedStatus": 401,
+      "bodyMatcher": "partial"
+    }
+  ]
+}
